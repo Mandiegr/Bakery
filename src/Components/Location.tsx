@@ -20,7 +20,7 @@ import {
           <Description>
             <Title>Endereço</Title>
             Rua Qualquer, 123
-           Cidade Qualquer, Estado, País
+            Cidade Qualquer, Estado, País
           <ContactDetails>
            Tel (12) 3456-7890
           </ContactDetails>

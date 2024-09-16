@@ -31,7 +31,7 @@ export const Image = styled.img`
 
   @media (max-width: 912px) {
     width: 100vw;
-    height: 50vh;
+    height: 55vh;
   }
 `;
 
@@ -39,7 +39,7 @@ export const RightSide = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+ // align-items: center; 
   justify-content: center; 
   padding: 20px;
 
@@ -58,14 +58,20 @@ export const Title = styled.h1`
   }
 
   @media (max-width: 419px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 
 export const Description = styled.p`
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   margin-bottom: 20px;
   color: #673117;
+ 
+
+
+  @media (max-width: 912px) {
+    left: -200px;
+  }
 `;
 
 export const ContactDetails = styled.div`
@@ -74,7 +80,3 @@ export const ContactDetails = styled.div`
   gap: 10px;
 `;
 
-export const Detail = styled.div`
-  font-size: 1rem;
-  color: #673117;
-`;
