@@ -21,9 +21,6 @@ export const LeftSide = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; 
- // padding-left: 50px;
 
   @media (max-width: 912px) {
    padding: 50px;
@@ -44,6 +41,8 @@ export const Image = styled.img`
 
 export const RightSide = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center; 
 
   @media (max-width: 912px) {
    padding: 0;
@@ -86,9 +85,5 @@ export const ContactDetails = styled.div`
 
 export const Detail = styled.div`
   font-size: 1rem;
-  color: #673117;;
- // line-height: 1.5;
-
- strong {}
-
+  color: #673117;
 `;
