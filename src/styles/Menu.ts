@@ -27,12 +27,9 @@ export const ImageContainer = styled.div`
   text-align: center;
   width: 30%;
   height:auto;
- // background: #D9B287;
- // border-radius: 50%;
 
-
-  @media (max-width: 768px) {
-    width: 70%;
+  @media (max-width: 853px) {
+    width: 60%;
     text-align: center;
 
   }
@@ -58,7 +55,7 @@ export const AboutImage = styled.img`
   height: auto;
   object-fit: cover;
 
-  @media (max-width: 884px) {
+  @media (max-width: 853px) {
     width: 50%;
   }
   @media (max-width: 540px) {
@@ -73,12 +70,15 @@ export const AboutImage = styled.img`
 export const TextContainer = styled.div`
   width: 40%;
   color: #673117;
+  padding: 50px;
+
+
  
   @media (max-width: 884px) {
     width: 100%;
   }
   @media (max-width: 375px) {
-      padding-top: 50px;
+  padding-top: 50px;
     
   }
 `;
@@ -109,3 +109,43 @@ export const Value = styled.p`
     text-align: justify;
   }
 `;
+
+export const ContainerBuy = styled.div`
+display: flex;
+flex-direction: row;
+gap: 20px;
+align-items: center; 
+
+
+`
+
+export const ButtonBuy = styled.button`
+ background-color: #673117;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: #7a4521;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    background-color: #4e2914;
+    transform: scale(0.98);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @media (max-width: 600px) {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+
+`

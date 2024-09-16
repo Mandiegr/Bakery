@@ -13,6 +13,8 @@ import pao10 from "../img/21.png";
 import pao11 from "../img/22.png";
 import {
   AboutImage,
+  ButtonBuy,
+  ContainerBuy,
   Description,
   ImageContainer,
   MenuContainer,
@@ -76,7 +78,11 @@ const Menu = () => {
       <TextContainer>
         <Title>{images[activeSlide].title}</Title>
         <Description>{images[activeSlide].description}</Description>
+        <ContainerBuy>
         <Value>{images[activeSlide].value}</Value>
+        <ButtonBuy>Buy</ButtonBuy>
+        </ContainerBuy>
+
       </TextContainer>
     </MenuContainer>
   );
