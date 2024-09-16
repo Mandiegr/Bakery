@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const ContactContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -21,11 +22,13 @@ export const LeftSide = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+//  padding: 50px;
 
   @media (max-width: 912px) {
    padding: 50px;
     
-  }   `
+  } `
 
 export const Image = styled.img`
   width: 100%;
@@ -34,15 +37,13 @@ export const Image = styled.img`
 
   @media (max-width: 912px) {
     width: 100vw; 
-    height: 40vh 
+    height: 55vh 
   }
 `;
 
 
 export const RightSide = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center; 
 
   @media (max-width: 912px) {
    padding: 0;
@@ -85,5 +86,9 @@ export const ContactDetails = styled.div`
 
 export const Detail = styled.div`
   font-size: 1rem;
-  color: #673117;
+  color: #673117;;
+ // line-height: 1.5;
+
+ strong {}
+
 `;
